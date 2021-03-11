@@ -61,7 +61,7 @@ The result is based on the same rules for combining expressions when the types a
 The query specification or expression can't return **xml**, **text**, **ntext**, **image**, or nonbinary CLR user-defined type columns because these data types aren't comparable.  
   
 EXCEPT  
-Returns any distinct values from the query left of the EXCEPT operator. Those values return as long the right query doesn't return those values as well.  
+Returns any distinct values from the query left of the EXCEPT operator. Those values return as long as the right query doesn't return those values as well.  
   
 INTERSECT  
 Returns any distinct values that are returned by both the query on the left and right sides of the INTERSECT operator.  
